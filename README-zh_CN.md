@@ -8,6 +8,13 @@
 
 # 使用
 
+## 命令行使用：
+```
+// 命令有两个参数，第一个是版本号，一个是更新文件根目录位置
+npx electron-update-server-uploader 1.1.4 /Users/peiyandong/Downloads/apps
+```
+
+## 源码式使用：
 ```
 git clone https://github.com/lucksoft-yungui/update-server-uploader.git
 cd update-server-uploader

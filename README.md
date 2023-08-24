@@ -1,4 +1,4 @@
-# update-server-uploader
+# electron-update-server-uploader
 
 This project aims to provide a bulk upload tool for `Electron Nucleus` application version files. It addresses the issue of bulk release of application versions in private or network-restricted scenarios.
 
@@ -7,11 +7,20 @@ This project aims to provide a bulk upload tool for `Electron Nucleus` applicati
 [简体中文](./README-zh_CN.md) | [English](./README.md)
 
 # Usage
+
+## Command Line Usage:
+
+```
+// There are two arguments for the command, the first is the version number, and the second is the location of the root directory of the update files.
+npx electron-update-server-uploader 1.1.4 /Users/peiyandong/Downloads/apps
+```
+
+## Usage from Source 
 ```
 git clone https://github.com/lucksoft-yungui/update-server-uploader.git
 cd update-server-uploader
 npm i
-// There are two arguments for the command, the first is the version number, and the second 
+// There are two arguments for the command, the first is the version number, and the second is the location of the root directory of the update files.
 npm run upload -- 1.1.4 /Users/test/Downloads/apps
 ```
 
