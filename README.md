@@ -11,7 +11,7 @@ This project aims to provide a bulk upload tool for `Electron Nucleus` applicati
 git clone https://github.com/lucksoft-yungui/update-server-uploader.git
 cd update-server-uploader
 npm i
-// 命令有两个参数，第一个是版本号，一个是更新文件根目录位置
+// There are two arguments for the command, the first is the version number, and the second 
 npm run upload -- 1.1.4 /Users/test/Downloads/apps
 ```
 
