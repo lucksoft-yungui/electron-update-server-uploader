@@ -7,8 +7,11 @@
   "scripts": {
     "upload": "node index.js"
   },
-  "keywords": [],
-  "author": "",
+  "bin": {
+    "electron-update-server-uploader": "./index.js"
+  },
+  "keywords": ["electron","Nucleus","update server"],
+  "author": "lucksoft",
   "license": "ISC",
   "dependencies": {
     "form-data": "^4.0.0",
