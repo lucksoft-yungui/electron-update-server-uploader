@@ -1,5 +1,5 @@
 {
-  "name": "update-server-uploader",
+  "name": "electron-update-server-uploader",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
